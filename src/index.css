@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #F5F0E8;
+  --color-cream-dark: #E8E0D0;
+  --color-knob: #D4C8B0;
+  --color-knob-dark: #B8A88C;
+  --color-braun-orange: #E84E0F;
+  --color-braun-orange-dim: #C43D0A;
+  --color-lcd-bg: #1A2012;
+  --color-lcd-green: #7EFF6B;
+  --color-lcd-green-dim: #3A7A30;
+  --color-scale: #8B7355;
+  --color-shadow-dark: #C4B89C;
+  --color-shadow-light: #FFFDF7;
+  --color-metal: #9E9585;
+  --color-metal-light: #D1C9B8;
+
+  --font-lcd: 'Share Tech Mono', monospace;
+  --font-label: 'Bebas Neue', sans-serif;
+  --font-body: 'DM Mono', monospace;
+}
+
+/* Global reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  html, body, #root { overflow: hidden; }
+}
+@media (max-width: 767px) {
+  html, body, #root { overflow-y: auto; overflow-x: hidden; }
+}
+
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
