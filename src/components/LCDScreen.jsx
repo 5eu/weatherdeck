@@ -140,8 +140,8 @@ export default function LCDScreen({ weather, loading, timezone, isNightTime = fa
             0deg,
             transparent,
             transparent 3px,
-            rgba(0,0,0,0.08) 3px,
-            rgba(0,0,0,0.08) 4px
+            rgba(0,0,0,0.03) 3px,
+            rgba(0,0,0,0.03) 4px
           )`,
         }}
       />
@@ -150,7 +150,7 @@ export default function LCDScreen({ weather, loading, timezone, isNightTime = fa
       <div
         className="absolute inset-0 pointer-events-none z-10"
         style={{
-          background: 'linear-gradient(135deg, rgba(255,255,255,0.04) 0%, transparent 50%, rgba(0,0,0,0.02) 100%)',
+          background: 'linear-gradient(135deg, rgba(255,255,255,0.02) 0%, transparent 50%, rgba(0,0,0,0.01) 100%)',
           borderRadius: '10px',
         }}
       />
