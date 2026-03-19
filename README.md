@@ -1,6 +1,6 @@
 # WeatherDeck
 
-![WeatherDeck Screenshot](screenshot.png)
+![WeatherDeck Screenshot](docs/screenshot.png)
 
 **[Live Demo →](https://weatherdeck.b0th.com)** 🌡️
 
