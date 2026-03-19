@@ -1,4 +1,8 @@
-# WeatherDeck 🌡️
+# WeatherDeck
+
+![WeatherDeck Screenshot](screenshot.png)
+
+**[Live Demo →](https://weatherdeck.b0th.com)** 🌡️
 
 A Braun-inspired digital weather instrument. Real weather data displayed through a skeuomorphic interface that feels like a real Dieter Rams instrument sitting on your desk.
 
